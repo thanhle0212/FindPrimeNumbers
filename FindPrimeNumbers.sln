@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPrimeNumbers", "FindPrimeNumbers\FindPrimeNumbers.csproj", "{8712FD90-9183-4B6C-9179-953AB5F95239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindPrimeNumbersParallel", "FindPrimeNumbersParallel\FindPrimeNumbersParallel.csproj", "{F3718E8B-E366-4AC9-A6A2-1B82CA72B86A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FIndPrimeNumbersAsync", "FIndPrimeNumbersAsync\FIndPrimeNumbersAsync.csproj", "{C86F3C97-3AC4-4521-B8AE-8E21DF355A87}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8712FD90-9183-4B6C-9179-953AB5F95239}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{8712FD90-9183-4B6C-9179-953AB5F95239}.Debug|anycpu.Build.0 = Debug|anycpu
+		{8712FD90-9183-4B6C-9179-953AB5F95239}.Release|anycpu.ActiveCfg = Release|anycpu
+		{8712FD90-9183-4B6C-9179-953AB5F95239}.Release|anycpu.Build.0 = Release|anycpu
+		{F3718E8B-E366-4AC9-A6A2-1B82CA72B86A}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{F3718E8B-E366-4AC9-A6A2-1B82CA72B86A}.Debug|anycpu.Build.0 = Debug|anycpu
+		{F3718E8B-E366-4AC9-A6A2-1B82CA72B86A}.Release|anycpu.ActiveCfg = Release|anycpu
+		{F3718E8B-E366-4AC9-A6A2-1B82CA72B86A}.Release|anycpu.Build.0 = Release|anycpu
+		{C86F3C97-3AC4-4521-B8AE-8E21DF355A87}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{C86F3C97-3AC4-4521-B8AE-8E21DF355A87}.Debug|anycpu.Build.0 = Debug|anycpu
+		{C86F3C97-3AC4-4521-B8AE-8E21DF355A87}.Release|anycpu.ActiveCfg = Release|anycpu
+		{C86F3C97-3AC4-4521-B8AE-8E21DF355A87}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal
