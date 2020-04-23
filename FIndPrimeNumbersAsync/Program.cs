@@ -50,7 +50,7 @@ namespace FIndPrimeNumbersAsync
         {
             if (number % 2 == 0)
             {
-                return true;
+                return number == 2;
             }
             else
             {
