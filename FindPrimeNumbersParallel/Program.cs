@@ -12,9 +12,9 @@ namespace FindPrimeNumbersParallel
         {
             var sw = new Stopwatch();
             sw.Start();
-            const int numParts = 10;
+            const int numParts = 5;
             var primes = new List<int>[numParts];
-            Parallel.For(0, numParts, i => primes[i] = GetPrimeNumbers(i == 0 ? 2 : i * 1000000 + 1, (i + 1) * 1000000));
+            Parallel.For(0, numParts, i => primes[i] = GetPrimeNumbers(i == 0 ? 2 : i * 2000000 + 1, (i + 1) * 2000000));
             var result = primes.Sum(p => p.Count);
             Console.WriteLine("Primes found: {0}\nTotal time: {1}", result, sw.ElapsedMilliseconds);
         }

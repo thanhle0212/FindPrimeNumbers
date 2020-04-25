@@ -8,13 +8,7 @@ namespace FIndPrimeNumbersAsync
 {
     class MainClass
     {
-        static void Main(string[] args)
-        {
-            ProcessPrimesAsync();
-            Console.ReadLine();
-        }
-
-        private static async void ProcessPrimesAsync()
+        static async Task Main(string[] args)
         {
             var sw = new Stopwatch();
             sw.Start();
